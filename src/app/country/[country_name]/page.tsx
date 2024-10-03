@@ -1,4 +1,4 @@
-const page = ({ params }) => {
+const page = ({ params }:any) => {
   // console.log(params);
 
   interface Countrytype {
