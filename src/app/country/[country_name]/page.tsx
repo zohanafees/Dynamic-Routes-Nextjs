@@ -1,26 +1,34 @@
-const page = ({ params }: any) => {
-  console.log(params);
-  const objPK : any = {
+const page = ({ params }) => {
+  // console.log(params);
+
+  interface Countrytype {
+
+    name:string,
+    population:number,
+    capitalCity:string
+  }
+
+  const objPK : Countrytype|any = {
     name: "pakistan",
     population: 251269164,
     capitalCity: "Islamabad",
   };
-  const objban : any = {
+  const objban : Countrytype|any = {
     name: "bangladesh",
     population: 173562364,
     capitalCity: "Dhaka",
   };
-  const objruss : any = {
+  const objruss : Countrytype|any = {
     name: "russia",
     population: 144820423,
     capitalCity: "Moscow",
   };
-  const objchin : any = {
+  const objchin : Countrytype|any = {
     name: "china",
     population: 1419321278,
     capitalCity: "Beijing",
   };
-  const objsau : any = {
+  const objsau : Countrytype|any = {
     name: "saudiaArabia",
     population: 33962757,
     capitalCity: "Riyadh",
