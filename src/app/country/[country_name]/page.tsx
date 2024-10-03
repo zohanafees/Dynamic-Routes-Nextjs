@@ -1,26 +1,26 @@
 const page = ({ params }: any) => {
   console.log(params);
-  let objPK = {
+  const objPK : any | {} = {
     name: "pakistan",
     population: 251269164,
     capitalCity: "Islamabad",
   };
-  let objban = {
+  const objban : any | {} = {
     name: "bangladesh",
     population: 173562364,
     capitalCity: "Dhaka",
   };
-  let objruss = {
+  const objruss : any | {} = {
     name: "russia",
     population: 144820423,
     capitalCity: "Moscow",
   };
-  let objchin = {
+  const objchin : any | {} = {
     name: "china",
     population: 1419321278,
     capitalCity: "Beijing",
   };
-  let objsau = {
+  const objsau : any | {} = {
     name: "saudiaArabia",
     population: 33962757,
     capitalCity: "Riyadh",
