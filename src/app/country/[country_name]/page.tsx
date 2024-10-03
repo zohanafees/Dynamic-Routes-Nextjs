@@ -8,27 +8,27 @@ const page = ({ params }) => {
     capitalCity:string
   }
 
-  const objPK : Countrytype|any = {
+  const objPK : Countrytype = {
     name: "pakistan",
     population: 251269164,
     capitalCity: "Islamabad",
   };
-  const objban : Countrytype|any = {
+  const objban : Countrytype = {
     name: "bangladesh",
     population: 173562364,
     capitalCity: "Dhaka",
   };
-  const objruss : Countrytype|any = {
+  const objruss : Countrytype = {
     name: "russia",
     population: 144820423,
     capitalCity: "Moscow",
   };
-  const objchin : Countrytype|any = {
+  const objchin : Countrytype = {
     name: "china",
     population: 1419321278,
     capitalCity: "Beijing",
   };
-  const objsau : Countrytype|any = {
+  const objsau : Countrytype = {
     name: "saudiaArabia",
     population: 33962757,
     capitalCity: "Riyadh",
